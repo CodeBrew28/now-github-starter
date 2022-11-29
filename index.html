@@ -1,8 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset='utf-8' />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <style>
       body {
         display: flex;
@@ -17,23 +20,49 @@
       }
 
       main {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+          "Segoe UI Symbol";
         margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
       }
 
-      h1, h2 {
+      h1,
+      h2 {
         font-weight: 500;
         font-size: 32px;
+        margin: 0.3rem;
+      }
+      h1 {
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        width: 90%;
       }
 
       h2 {
         font-weight: 300;
         font-size: 16px;
       }
+      h1:hover {
+        cursor: pointer;
+        color: white;
+        background-color: gray;
+        border: none;
+        border-radius: 10rem;
+      }
     </style>
   </head>
   <body>
-    <img src="first-gh-deployment.svg" alt="First GitHub Deployment" title="First GitHub Deployment" height="50" width="184" />
+    <img
+      src="first-gh-deployment.svg"
+      alt="First GitHub Deployment"
+      title="First GitHub Deployment"
+      height="50"
+      width="184"
+    />
     <main>
       <h1>Congratulations!</h1>
       <h2>You just made your first GitHub deployment.</h2>
